@@ -60,6 +60,9 @@ document.querySelectorAll('.cta-btn').forEach(btn => {
     btn.addEventListener('mouseleave', () => {
         btn.classList.remove('hovered');
     });
+    btn.addEventListener('click', () => {
+        window.location.href = 'https://aditya48-q.github.io/Working-Proto/';
+    });
 });
 
 // Smooth scrolling for anchor links
